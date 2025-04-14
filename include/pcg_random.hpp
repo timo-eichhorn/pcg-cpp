@@ -1864,11 +1864,13 @@ using ext_setseq_xsl_rr_128_64 =
 } // namespace pcg_engines
 
 typedef pcg_engines::setseq_xsh_rr_64_32        pcg32;
+typedef pcg_engines::setseq_dxsm_64_32          pcg32_dxsm;
 typedef pcg_engines::oneseq_xsh_rr_64_32        pcg32_oneseq;
 typedef pcg_engines::unique_xsh_rr_64_32        pcg32_unique;
 typedef pcg_engines::mcg_xsh_rs_64_32           pcg32_fast;
 
 typedef pcg_engines::setseq_xsl_rr_128_64       pcg64;
+typedef pcg_engines::setseq_dxsm_128_64         pcg64_dxsm;
 typedef pcg_engines::oneseq_xsl_rr_128_64       pcg64_oneseq;
 typedef pcg_engines::unique_xsl_rr_128_64       pcg64_unique;
 typedef pcg_engines::mcg_xsl_rr_128_64          pcg64_fast;
